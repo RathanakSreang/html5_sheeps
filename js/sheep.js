@@ -47,6 +47,7 @@ function Sheep() {
   }
 
   this.Activity = function() {
+    console.log(this.getBounds())
     this.event = this._getEventSurrounding();
 
     switch(this.action) {

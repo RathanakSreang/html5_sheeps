@@ -15,7 +15,7 @@ var image = {
 var spriteSheet = new createjs.SpriteSheet({
   framerate: 30,
   "images": ["assets/images/sheep_walk.png"],
-  "frames": {"regX": 0, "height": 128, "count": 16, "regY": 0, "width": 128},
+  "frames": {"regX": 0, "height": 128, "count": 16, "regY": 0, "width": 128, "margin": 0},
   // define two animations, run (loops, 1.5x speed) and jump (returns to run):
   "animations": {
     "up": [0, 3, "up", 0.3],
